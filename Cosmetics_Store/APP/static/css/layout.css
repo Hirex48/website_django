@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 22px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 22px;
+    font-size: 25px;
+}
+
+footer p.f {
+    color: black;
+    text-align: center;
+}
+
+div.footer {
+    padding: 100px;
+}

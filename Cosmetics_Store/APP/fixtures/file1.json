@@ -1,0 +1,136 @@
+[
+    {
+        "model": "APP.products",
+        "pk": 1,
+        "fields": {
+            "name": "Карандаш для губ",
+            "category": 1,
+            "price": 500,
+            "brand": "Chanel",
+            "appointment": "Для губ"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 2,
+        "fields": {
+            "name": "Тушь",
+            "category": 1,
+            "price": 3500,
+            "brand": "Christian Dior",
+            "appointment": "Для глаз"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 3,
+        "fields": {
+            "name": "Пудра",
+            "category": 2,
+            "price": 700,
+            "brand": "Loreal",
+            "appointment": "Для лица"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 4,
+        "fields": {
+            "name": "Румяна",
+            "category": 3,
+            "price": 400,
+            "brand": "Eveline",
+            "appointment": "Для лица"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 5,
+        "fields": {
+            "name": "Увлажняющий крем",
+            "category": 3,
+            "price": 400,
+            "brand": "Nivea",
+            "appointment": "Для лица"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 6,
+        "fields": {
+            "name": "Тональный крем",
+            "category": 2,
+            "price": 699,
+            "brand": "Divage",
+            "appointment": "Для лица"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 7,
+        "fields": {
+            "name": "Палетка теней",
+            "category": 2,
+            "price": 1200,
+            "brand": "Divage",
+            "appointment": "Для глаз"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 8,
+        "fields": {
+            "name": "Палетка контуринга",
+            "category": 3,
+            "price": 499,
+            "brand": "loreal",
+            "appointment": "Для глаз"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 9,
+        "fields": {
+            "name": "Подводка черная",
+            "category": 1,
+            "price": 990,
+            "brand": "Christian Dior",
+            "appointment": "Для глаз"
+        }
+    },
+    {
+        "model": "APP.products",
+        "pk": 10,
+        "fields": {
+            "name": "Черный карандаш для глаз",
+            "category": 2,
+            "price": 550,
+            "brand": "Divage",
+            "appointment": "Для глаз"
+        }
+    },
+    {
+        "model": "APP.category",
+        "pk": 1,
+        "fields": {
+            "name": "Люкс",
+            "img_url": "https://sun6-20.userapi.com/s/v1/ig2/FuIqHhxGCIEvHywCFWyDClJg1lsKT8u4dtqm62FKEymr7XdbQ8j49ER5F8bW0YY6sdVI7tiYeM6x8JG5jslvVMZz.jpg?size=801x801&quality=95&crop=86,0,801,801&ava=1"
+        }
+    },
+    {
+        "model": "APP.category",
+        "pk": 2,
+        "fields": {
+            "name": "Мидл-маркет",
+            "img_url": "https://makeup.uz/uploads/page/plitka_1500968301.jpg"
+        }
+    },
+    {
+        "model": "APP.category",
+        "pk": 3,
+        "fields": {
+            "name": "Масс-маркет",
+            "img_url": "https://thumbs.dreamstime.com/b/mass-market-rubber-stamp-white-print-impress-overprint-83214629.jpg"
+        }
+    }
+]

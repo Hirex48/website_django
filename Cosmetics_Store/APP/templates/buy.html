@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+    <title>Заказать товар</title>
+{% endblock %}
+
+{% block content %}
+<form action="/order/" method="post">
+    {{ form }}
+    <button type="submit"><a href="/go"></a>Оформить заказ</button>
+</form>
+{% endblock %}

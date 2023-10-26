@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/products/">Все товары</a></li>
+            <li><a href="/contacts/">Контакты</a></li>
+        </ul>
+    </header>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        <div class="footer">
+            <P class="f">Наш адрес: 1-й тёме Маруноути (Маруноути, специальный район Тиёда, префектура Токио)</P>
+            <p class="f">Телефон: 555-56-8900</p>
+        </div>
+    </footer>
+</body>
+</html>

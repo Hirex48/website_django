@@ -1,0 +1,58 @@
+h2 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    margin-left: 320px;
+    margin-right: 320px;
+    border-radius: 20px;
+}
+
+div.product {
+    background-color: rgb(212, 24, 49);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 80px;
+    border: 10px;
+    text-align: center;
+    color: rgb(255, 209, 209);
+}
+
+button.kupit {
+    background-color: green; 
+    color: white;
+    padding: 15px 25px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+button.kupit:hover {
+    background-color: rgb(71, 184, 71);
+}
+
+
+p {
+    color: rgb(255, 209, 209);
+}
+
+p.go {
+    text-align: right;
+    padding-right: 40px;
+}
+
+button.perehod {
+    background-color: rgb(0, 0, 0);
+    color: rgb(41, 41, 41);
+    border: 2px solid #5c0000; 
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 15px;
+}
+
+button.perehod:hover {
+    background-color: #e98d8d; 
+}
